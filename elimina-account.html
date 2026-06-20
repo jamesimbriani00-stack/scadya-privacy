@@ -1,0 +1,61 @@
+<title>Scadya — Eliminazione account e dati</title>
+<style>
+  :root { --blue:#0D5CFF; --ink:#1a2233; --muted:#5b6577; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#f5f7fb; color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+  header { background:linear-gradient(135deg,#2E7BFF,#0A4AE6); color:#fff;
+    border-radius:20px; padding:36px 32px; margin-bottom:28px; }
+  header h1 { margin:0 0 6px; font-size:28px; letter-spacing:-.5px; }
+  header p { margin:0; opacity:.92; }
+  .card { background:#fff; border:1px solid #e6eaf2; border-radius:12px;
+    padding:20px 24px; margin-bottom:20px; }
+  .card h2 { font-size:18px; margin:0 0 10px; }
+  ol, ul { padding-left:22px; margin:8px 0; }
+  p, li { font-size:15.5px; color:#26303f; }
+  .mail { display:inline-block; margin-top:8px; background:var(--blue); color:#fff;
+    text-decoration:none; padding:11px 18px; border-radius:10px; font-weight:600; }
+  .muted { color:var(--muted); font-size:13.5px; }
+  a { color:var(--blue); }
+  footer { margin-top:28px; padding-top:18px; border-top:1px solid #e6eaf2; }
+</style>
+<div class="wrap">
+  <header>
+    <h1>Eliminazione dell'account e dei dati</h1>
+    <p>App: <strong>Scadya</strong> (it.scadya.app)</p>
+  </header>
+
+  <div class="card">
+    <h2>Opzione 1 — Dall'app (immediata)</h2>
+    <p>Se hai Scadya installata, puoi cancellare tutto da solo in pochi secondi:</p>
+    <ol>
+      <li>Apri <strong>Scadya</strong>.</li>
+      <li>Vai su <strong>Impostazioni</strong> (icona ingranaggio in alto a destra).</li>
+      <li>Tocca <strong>"Elimina account"</strong> e conferma.</li>
+    </ol>
+    <p>L'operazione cancella definitivamente il tuo account e tutte le scadenze associate, sia sul dispositivo sia nel cloud.</p>
+  </div>
+
+  <div class="card">
+    <h2>Opzione 2 — Richiesta via email</h2>
+    <p>Se non hai più accesso all'app, puoi richiederci l'eliminazione scrivendo dall'indirizzo email con cui hai effettuato l'accesso (Google o Facebook), con oggetto <strong>"Eliminazione account Scadya"</strong>.</p>
+    <a class="mail" href="mailto:obsidianmarketing73@gmail.com?subject=Eliminazione%20account%20Scadya">Richiedi l'eliminazione via email</a>
+    <p class="muted" style="margin-top:12px">Daremo seguito alla richiesta entro 30 giorni.</p>
+  </div>
+
+  <div class="card">
+    <h2>Quali dati vengono eliminati</h2>
+    <ul>
+      <li>Account (identificativo, nome ed email ricevuti dal provider di accesso).</li>
+      <li>Tutte le scadenze e i relativi dati salvati nel cloud (Google Firebase / Firestore).</li>
+      <li>I dati salvati localmente sul dispositivo.</li>
+    </ul>
+    <p>L'eliminazione è <strong>definitiva</strong> e i dati non vengono conservati dopo la cancellazione, salvo eventuali obblighi di legge.</p>
+  </div>
+
+  <footer>
+    <p class="muted">Scadya · Per ogni informazione: <a href="mailto:obsidianmarketing73@gmail.com">obsidianmarketing73@gmail.com</a> · Vedi anche l'<a href="index.html">Informativa sulla privacy</a>.</p>
+  </footer>
+</div>
